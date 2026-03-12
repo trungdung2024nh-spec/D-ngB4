@@ -1,0 +1,125 @@
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f4;
+}
+
+/* MENU */
+
+header{
+background:#111;
+color:white;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+width:100%;
+top:0;
+}
+
+.logo{
+color:#ffd000;
+font-weight:bold;
+font-size:22px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+}
+
+nav a:hover{
+color:#ffd000;
+}
+
+/* SECTION */
+
+section{
+padding:120px 60px;
+}
+
+/* TITLE */
+
+.title{
+font-size:32px;
+border-bottom:4px solid #ffd000;
+display:inline-block;
+margin-bottom:30px;
+}
+
+/* CARD */
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+line-height:1.7;
+}
+
+/* IMAGE */
+
+.img{
+max-width:400px;
+width:100%;
+border-radius:10px;
+margin:20px auto;
+display:block;
+transition:0.3s;
+}
+
+.img:hover{
+transform:scale(1.05);
+}
+
+/* SKILL */
+
+.skill{
+margin:15px 0;
+}
+
+.bar{
+background:#ddd;
+height:12px;
+border-radius:10px;
+}
+
+.fill{
+background:#ffd000;
+height:12px;
+border-radius:10px;
+}
+
+/* PROJECT */
+
+.project{
+background:white;
+padding:25px;
+border-radius:10px;
+margin-bottom:20px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+/* CONTACT */
+
+.contact{
+background:white;
+padding:30px;
+border-radius:10px;
+max-width:500px;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
